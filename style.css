@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    background-color: #2C1B4F;
+    color: white;
+}
+
+/*icones*/
+.container-icons{
+    display: flex;
+    height: 40vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.rankIcons{
+    height: 80%;
+}
+/*verificador*/
+.container-verificador{
+    height: 50vh;
+    justify-content: center;
+
+}
+/*texto do verificador*/
+.text{
+    height: 50%;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+/*inputs*/
+.verificador{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.textBox{
+    height: 5vh;
+    width: 20%;
+    text-align: center;
+    border-radius: 5px;
+
+}
+.button{
+    height: 6vh;
+    width: 10%;
+    background-color: #9D84CF;
+    border-radius: 5px;
+}
+.button:hover{
+    border-color: white;
+}

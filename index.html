@@ -4,8 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Verificador de Rank</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="container-icons"><img src="https://www.unrankedsmurfs.com/storage/kYCt0ggLliMpPS7C3rcSzZcVm88NDkidfYTweNiN.png" alt="bronze" class="rankIcons">
+    <img src="https://www.unrankedsmurfs.com/storage/YMoeDoxu3dKunABYwywDC05hf11tbWr6NQScWoWS.png" alt="prata" class="rankIcons">
+    <img src="https://www.unrankedsmurfs.com/storage/ruoxfp7El8hKfK6IFEK6i9zA0VPvlXa6ac5XG3HA.png" alt="ouro" class="rankIcons">
+    <img src="https://www.unrankedsmurfs.com/storage/y4pOq0yXSUcOGQ39LfJF8Y20rZx7ZFS0lyKuo3R0.png" alt="platina" class="rankIcons">
+    <img src="https://www.unrankedsmurfs.com/storage/alpCvjaJ1vBCvzDeiycUfYpx1O5JGTGPz8zLWtTp.png" alt="diamante" class="rankIcons">
+    </div>
+    <div class="container-verificador">
+        <div class="text">
+            <h1>Verificador de Nível de Jogador</h1>
+            <p>Insira a quantidade de vitórias e derrotas do jogador para verificador seu nível</p>
+        </div>
+        <div class="verificador">
+            <input type="number" placeholder="vitórias" min="0" id="vitorias" class="textBox" >
+            <input type="number" placeholder="derrotas" min="0" id="derrotas" class="textBox" >
+            <input type="button" value="verificar" class="button" onclick="calcular()">
+            <br>
+            <h2 id="resposta"></h2>
+            <img src="" alt="" id="rank_img" style="height: 15vh;">
+        </div>
+    </div>
+
+    <script src="calculadora.js"></script>
 </body>
 </html>
