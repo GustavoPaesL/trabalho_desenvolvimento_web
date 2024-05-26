@@ -33,7 +33,7 @@ function calcular(){
     switch (true) {
         case pdr < 25:
             rank = "Sem rank";
-            
+            img.setAttribute("src", "");
             break;
         case pdr >= 25 && pdr <= 99:
             rank = "Bronze";
