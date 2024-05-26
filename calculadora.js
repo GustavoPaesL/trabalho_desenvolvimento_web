@@ -6,10 +6,12 @@ function calcular(){
 
     if(!win){
         alert("campo vitórias deve ser preenchido!")
+        return;
     }
 
     if(!lose){
         alert("campo derrotas deve ser preenchido!")
+        return;
     }
 
 
