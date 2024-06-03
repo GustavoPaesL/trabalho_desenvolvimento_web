@@ -1,3 +1,12 @@
+## Curso: Ciências da Computação
+### Professor: RAUL CESAR RODRIGUES DA SILVA PAVANI
+### Integrantes do grupo
+- Danilo Rodrigues da Costa
+- Felipe Santana Reliquias
+- Felipe Silva Santarosa
+- Gustavo Paes Leite
+- Ismael Gonçalves Brandão
+
 # Tarefa:
 Fazer um site que calcula o rank de um personagem (tem uma referencia do visual em anexo, mas voces podem fazer diferente!). 
 O site deve ter html, css e javascript (mas o foco vai ser no Js, nao vou me importar muito com o visual, mas sejam criativos com o css!).
